@@ -1,0 +1,29 @@
+﻿@model List<WebApplication1.Models.Product> 
+@{
+    ViewBag.Title = "Index";
+
+}
+
+<h2>Products</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Stock</th>
+        <th></th>
+        <th></th>
+    </tr>
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>@product.Id</td>
+            <td>@product.Name</td>
+            <td>@product.Price.ToString("C2")</td>
+            <td>@product.Stock</td>
+            <td>@Html.ActionLink("Edit", "Edit", "Product", new { id = product.Id }, new { style = "color: red;" })</td>
+            <td>@Html.ActionLink("Details", "Detail", "Product", new { id = product.Id }, new { style = "color: red;" })</td>
+        </tr>
+    }
+</table>

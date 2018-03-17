@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAtec.Northwind.Domain", "GAtec.Northwind.Domain\GAtec.Northwind.Domain.csproj", "{BB90DD5B-D58C-4448-B32B-8BB08870C9D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAtec.Northwind.Business", "GAtec.Northwind.Business\GAtec.Northwind.Business.csproj", "{8DF15D86-7AEE-42FE-882F-2ABFAA8AE1D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAtec.Northwind.Data", "GAtec.Northwind.Data\GAtec.Northwind.Data.csproj", "{38602236-1F80-4BFE-9AF7-C97933467493}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{974C4240-2EB7-4448-8EDB-534F1A8F6750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAtec.Northwind.ConsoleApp", "GAtec.Northwind.ConsoleApp\GAtec.Northwind.ConsoleApp.csproj", "{5B6594DC-C565-4CEE-961B-676C712D47FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAtec.Northwind.Util", "GAtec.Northwind.Util\GAtec.Northwind.Util.csproj", "{0E0F13D6-33FE-42B1-88D7-5FCB1466A814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB90DD5B-D58C-4448-B32B-8BB08870C9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB90DD5B-D58C-4448-B32B-8BB08870C9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB90DD5B-D58C-4448-B32B-8BB08870C9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB90DD5B-D58C-4448-B32B-8BB08870C9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF15D86-7AEE-42FE-882F-2ABFAA8AE1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF15D86-7AEE-42FE-882F-2ABFAA8AE1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF15D86-7AEE-42FE-882F-2ABFAA8AE1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF15D86-7AEE-42FE-882F-2ABFAA8AE1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38602236-1F80-4BFE-9AF7-C97933467493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38602236-1F80-4BFE-9AF7-C97933467493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38602236-1F80-4BFE-9AF7-C97933467493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38602236-1F80-4BFE-9AF7-C97933467493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6594DC-C565-4CEE-961B-676C712D47FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6594DC-C565-4CEE-961B-676C712D47FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6594DC-C565-4CEE-961B-676C712D47FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6594DC-C565-4CEE-961B-676C712D47FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E0F13D6-33FE-42B1-88D7-5FCB1466A814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0F13D6-33FE-42B1-88D7-5FCB1466A814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E0F13D6-33FE-42B1-88D7-5FCB1466A814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0F13D6-33FE-42B1-88D7-5FCB1466A814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B6594DC-C565-4CEE-961B-676C712D47FA} = {974C4240-2EB7-4448-8EDB-534F1A8F6750}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D014A3FC-5A0F-4EB6-9C25-4F20A2B36A9D}
+	EndGlobalSection
+EndGlobal

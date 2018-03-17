@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B6594DC-C565-4CEE-961B-676C712D47FA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>GAtec.Northwind.ConsoleApp</RootNamespace>
+    <AssemblyName>GAtec.Northwind.ConsoleApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GAtec.Northwind.Business\GAtec.Northwind.Business.csproj">
+      <Project>{8df15d86-7aee-42fe-882f-2abfaa8ae1d1}</Project>
+      <Name>GAtec.Northwind.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GAtec.Northwind.Data\GAtec.Northwind.Data.csproj">
+      <Project>{38602236-1f80-4bfe-9af7-c97933467493}</Project>
+      <Name>GAtec.Northwind.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GAtec.Northwind.Domain\GAtec.Northwind.Domain.csproj">
+      <Project>{bb90dd5b-d58c-4448-b32b-8bb08870c9d8}</Project>
+      <Name>GAtec.Northwind.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GAtec.Northwind.Util\GAtec.Northwind.Util.csproj">
+      <Project>{0e0f13d6-33fe-42b1-88d7-5fcb1466a814}</Project>
+      <Name>GAtec.Northwind.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

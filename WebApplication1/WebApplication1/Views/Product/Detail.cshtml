@@ -1,0 +1,10 @@
+﻿@model WebApplication1.Models.Product
+@{
+    ViewBag.Title = Model.Name;
+}
+
+@Html.Partial("Item", Model)
+
+<hr />
+
+@Html.ActionLink("Voltar", "Index", "Product", null, new { @class = "btn btn-default" })

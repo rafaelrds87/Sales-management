@@ -1,0 +1,32 @@
+﻿@model WebApplication1.Models.Product
+@{
+    ViewBag.Title = "Edit " + Model.Id;
+}
+
+<h2>Edit @Model.Id</h2>
+
+@using (Html.BeginForm("Update", "Product", FormMethod.Post))
+{
+    @Html.HiddenFor(model => model.Id)
+
+    <div>
+        Name:
+        @Html.TextBoxFor(model => model.Name)
+    </div>
+    
+    <div>
+        Price:
+        @Html.TextBoxFor(model => model.Price)
+    </div>
+
+    <div>
+        Stock:
+        @Html.TextBoxFor(model => model.Stock)
+    </div>
+
+    <input type="submit" value="Enviar" class="btn btn-primary" />
+    @Html.ActionLink("Back", "Index", new { @class= "btn btn-default" })
+}
+
+
+

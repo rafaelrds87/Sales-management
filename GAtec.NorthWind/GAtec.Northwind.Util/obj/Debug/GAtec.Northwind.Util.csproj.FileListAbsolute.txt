@@ -1,0 +1,6 @@
+C:\Users\Miriam\source\repos\GAtec.NorthWind\GAtec.Northwind.Util\bin\Debug\GAtec.Northwind.Util.dll
+C:\Users\Miriam\source\repos\GAtec.NorthWind\GAtec.Northwind.Util\bin\Debug\GAtec.Northwind.Util.pdb
+C:\Users\Miriam\source\repos\GAtec.NorthWind\GAtec.Northwind.Util\obj\Debug\GAtec.Northwind.Util.csprojResolveAssemblyReference.cache
+C:\Users\Miriam\source\repos\GAtec.NorthWind\GAtec.Northwind.Util\obj\Debug\GAtec.Northwind.Util.csproj.CoreCompileInputs.cache
+C:\Users\Miriam\source\repos\GAtec.NorthWind\GAtec.Northwind.Util\obj\Debug\GAtec.Northwind.Util.dll
+C:\Users\Miriam\source\repos\GAtec.NorthWind\GAtec.Northwind.Util\obj\Debug\GAtec.Northwind.Util.pdb
